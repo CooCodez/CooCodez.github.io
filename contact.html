@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taniti Island - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Taniti Island</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="accommodations.html">Accommodations</a></li>
+                <li><a href="booking.html">Book Now</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <img src="images/contacthero.jpg" alt="Contact Us" class="hero-image">
+            <div class="hero-text">
+                <h2>Get in Touch</h2>
+                <p>We'd love to hear from you. Fill out the form below to send us a message.</p>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="booking-form"> 
+            <h3>Contact Information</h3>
+            <form action="confirmation.html">
+                <!-- Step 1: Contact Information -->
+                <fieldset>
+                    <legend>Get in Touch</legend>
+
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="full-name" placeholder="Enter your full name">
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+
+                    <label for="phone">Phone Number (Optional):</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter the subject">
+                </fieldset>
+
+                <!-- Step 2: Message -->
+                <fieldset>
+                    <legend>Your Message</legend>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Enter your message here"></textarea>
+                </fieldset>
+
+                <!-- Submit Button -->
+                <button type="submit" class="cta-button submit-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="contact.html">Contact Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Social Media</a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2024 Taniti Island. All Rights Reserved. | Images courtesy of:
+                    <a href="https://www.pexels.com" target="_blank">Pexels (2024)</a>, 
+                    <a href="https://travel.usnews.com/Tahiti_French_Polynesia/Pictures/" target="_blank">US News Travel (2024)</a>, 
+                    <a href="https://www.tahititourisme.com/preparing-you-trip/accommodations-in-the-islands-of-tahiti/" target="_blank">Tahiti Tourisme (2024)</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
