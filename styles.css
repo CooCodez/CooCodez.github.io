@@ -19,6 +19,15 @@ header .logo h1 {
     margin: 0;
 }
 
+.logo a {
+    text-decoration: none; 
+    color: white; 
+}
+
+.logo a:hover {
+    color: #f0c040; 
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -180,9 +189,10 @@ footer {
 }
 
 /* Booking Form Styles */
-.booking-form {
-    padding: 40px;
-    text-align: left;
+.booking-form form {
+    width: 80%; 
+    margin: 0 auto; 
+    max-width: 600px; 
 }
 
 .booking-form h3 {
